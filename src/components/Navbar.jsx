@@ -1,53 +1,37 @@
 import React from "react";
-import '../styles/Navbar.css'
-import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
+
 const Navbar = () => {
-  const NavLinks = [
-    {
-      name: "Home",
-      Link: "/",
-    },
-    {
-      name: "Products",
-      Link: "/products",
-    },
-    {
-      name: "Dashboard",
-      Link: "/dashboard",
-    },
-    {
-      name: "Pricing",
-      Link: "/pricing",
-    },
-  ];
   return (
     <div className={`header`}>
-    {/* Left side */}
+      
       <div className="leftSection">
-        <img
-          src="/logo.jpeg"
-          alt=""
-          className={`image`}
-          style={{ width: 50, height: 50 }}
-        />
-        {/* Nav links */}
-        <div className="Links">
-          {NavLinks.map((Data, index) => {
-            return (
-              <Link key={index} to={Data.Link}>
-                  <p className={`NavLinks`}>{Data.name}</p>
-              </Link>
-            )
-          })}
-        </div>
+        
+        <p className="name">Subavarsni </p>
 
+      
+        <button className="nowAvailableButton">Now Available</button>
       </div>
-          {/* Right side */}
+
+    
       <div className="RightSection">
-        <button className={`Login`}>Login</button>
-        <button className={`SignUp`}>Signup</button>
+      
+        <img
+          src="twi.png"
+          alt="Logo 1"
+          className="logoImage"
+        />
+        <img
+          src="ins.png"
+          alt="Logo 2"
+          className="logoImage"
+        />
+        <img
+          src="ln.png"
+          alt="Logo 3"
+          className="logoImage"
+        />
       </div>
-
     </div>
   );
 };
