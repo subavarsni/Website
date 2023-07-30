@@ -157,25 +157,4 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .c6 img{
-    width: 70px;
-    height: 100px;
-    position: absolute;
-    left: 700px;
-  }
-  .c7 img{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    bottom: 500px;
-    left: 870px;
-    border-radius: 50px;
-  }
-  .c8 img{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    bottom: 380px;
-    left: 730px;
-    border-radius: 50px;
-  }
+  
