@@ -1,0 +1,181 @@
+/* Navbar container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  
+  /* Left section (Your Name and Now Available button) */
+  .leftSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .nowAvailableButton {
+    background-color:black;
+    color:violet;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Right section (Logo images) */
+  .RightSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding:10px;
+  }
+  .home{
+    padding: 50px;
+    display: flex;
+  }
+  .home1 {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+  }
+  
+  .home1 p {
+    margin: 0; 
+  }
+  .last{
+    display: flex;
+    flex-direction: row;
+  }
+  .ss{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+  }
+  .ss1{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+  }
+  .ss2{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+  }
+  body {
+    background-color:white; /* Replace with your desired background color */
+  }
+  
+.card {
+    height: 180px;
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%; /* Optional: Add rounded corners to the image */
+  }
+  .child{
+    width:50% ;
+  }
+  .c1{
+    width: 100px;
+    position: absolute;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .c2{
+    width: 100px;
+    position: absolute;
+    bottom: 220px;
+    left:100px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .c3{
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    left:140px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .c4{
+    width: 100px;
+    position: absolute;
+    bottom: 250px;
+    right:150px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .c5{
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    right:150px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .c6 img{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    left: 700px;
+  }
+  .c7 img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 500px;
+    left: 870px;
+    border-radius: 50px;
+  }
+  .c8 img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 380px;
+    left: 730px;
+    border-radius: 50px;
+  }
